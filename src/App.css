@@ -1,0 +1,28 @@
+#root {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+@media (max-width: 1279px) {
+    .container {
+        max-width: 100% !important;
+    }
+}
+
+.preview-image {
+    background-image: url("/images/preview_1.png");
+    background-size: cover;
+    background-position: center center;
+}
+
+.preview-image.preview-1 {
+    background-image: url("/images/preview_1.png");
+}
+
+.preview-image.preview-2 {
+    background-image: url("/images/preview_2.png");
+}
+
+.preview-image.preview-3 {
+    background-image: url("/images/preview_3.png");
+}
